@@ -1,0 +1,34 @@
+Themes:
+
+git clone https://github.com/tliron/install-gnome-themes
+cd install-gnome-themes/
+./install-gnome-themes
+cd ..
+
+git clone https://github.com/system76/pop-icon-theme.git
+cd pop-icon-theme
+sudo make install 
+cd ..
+
+git clone https://github.com/numixproject/numix-icon-theme-circle.git
+cd numix-icon-theme-circle
+sudo mv Numix-Circle /usr/share/icons
+sudo mv Numix-Circle-Light /usr/share/icons
+
+gnome extensions I use:
+-user themes
+-dash to dock
+-drop down terminal
+-back slide - change reandomly wallapapers
+-open weather
+-media player indicatior
+
+-top icon plus - moves icon to task bar
+-dash to panel - window style
+-impatience - speed up gnome animations
+-native window palcement
+-place status indicator
+-time tracker
+-workspace indicator
+-allow keyboard selection on windows in overlay mode
+-switcher 
